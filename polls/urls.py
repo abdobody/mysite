@@ -20,6 +20,4 @@ from . import views
 urlpatterns = [
     #id on website page like 3#
     url(r'^$', views.index, name='index'),
-    url(r'^(?P<id>[0-9]+)/$', views.detail, name='detail'),
-    url(r'^(?P<id>[0-9]+)/results/$', views.result, name='results'),
 ]
